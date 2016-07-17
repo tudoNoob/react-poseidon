@@ -1,0 +1,38 @@
+{
+  "name": "react-poseidon",
+  "version": "1.0.0",
+  "description": "React Poseidon Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tudoNoob/react-poseidon.git"
+  },
+  "author": "Guilherme C Matuella <guilherme1matuella@gmail.com> (http://matuella.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tudoNoob/react-poseidon/issues"
+  },
+  "homepage": "https://github.com/tudoNoob/react-poseidon#readme",
+  "dependencies": {
+    "babel-loader": "^6.2.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.3.13",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
